@@ -149,11 +149,19 @@
 }
 .card-name{
     font-size: 22px;
+    color: black;
     margin-bottom: 20px;
 }
+
 .text-on-cards:hover{
     background-color: rgb(0,189,86);
     color: white; 
+}
+
+.text-on-cards:hover{
+    .card-name{
+        color: white;
+    }
 }
 .arrow{
     width: 50px;
@@ -170,7 +178,7 @@
     font-size: 30px;
     box-shadow: 5px 5px 5px #838383;
 }
-.first-card, .second-card, .third-card:hover{
+.first-card:hover, .second-card:hover, .third-card:hover{
     .icon{
       background-color: white;  
     }
@@ -180,6 +188,7 @@
         margin-left: 10px;  
     }
 }
+.
 .choose-us{
     display: flex;
     height: 650px;
@@ -226,7 +235,7 @@
 .column h1{
     padding-bottom: 50px;
 }
-.pug{
+.pug-img{
     margin-left: 100px;
 }
 .pet-number{
@@ -469,4 +478,86 @@
     margin-top: 88px;
     border-radius: 1%;
     margin-left: 40px;
+}
+.gallery{
+    width: 100%;
+    height: 750px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.pets-img{
+    margin-left: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-top:90px;
+    position: relative;
+}
+.pet2, .pet3, .pet5, .pet6{
+    margin-left: 30px;
+}
+.pet4, .pet5, .pet6{
+    margin-top: 30px;
+}
+.pet1, .pet2, .pet3, .pet4, .pet5, .pet6{
+    border-radius: 2%;
+    z-index: 0;
+}
+.gallery-section{
+    padding-top: 110px;
+    padding-left: 605px;
+}
+.persian, .pomeranian, .sphynx, .british, .beagle, .pug{
+    font-size: 24px;
+    color: white;
+    position: absolute; 
+    display: none;  
+    z-index: 1;
+}
+.persian{
+    top: 167px;
+    left: 10px;
+}
+.pomeranian{
+    top: 167px;
+    left: 360px;
+}
+.sphynx{
+    top: 167px;
+    left:710px;
+}
+.british{
+    top: 397px;
+    left: 10px;
+}
+.beagle{
+    top: 397px;
+    left: 360px;
+}
+.pug{
+    top: 397px;
+    left: 713px;
+}
+.pet1:hover + .persian{
+    display: block;
+}
+
+.pet2:hover + .pomeranian{
+    display: block;
+}
+
+.pet3:hover + .sphynx{
+    display: block;
+}
+
+.pet4:hover + .british{
+    display: block;
+}
+
+.pet5:hover + .beagle{
+    display: block;
+}
+
+.pet6:hover + .pug{
+    display: block;
 }
