@@ -316,7 +316,7 @@
 .feedback{
     background-image: url(https://preview.colorlib.com/theme/petsitting/images/bg_2.jpg.webp);
     width: 100%;
-    height: 800px;
+    height: 725px;
 }
 .feedback-name{
     color: rgb(48,43,42);
@@ -378,4 +378,95 @@
 .worker{
     padding-top: 10px;
     font-size: 16px;
+}
+.packages{
+    background-color: rgb(243,244,248);
+    width: 100%;
+    height: 1090px;
+    font-family: 'Montserrat', sans-serif;
+}
+.row-packages{
+    display: flex;
+}
+.main-package{
+    font-size: 30px;
+    padding-left: 570px;
+    padding-top: 100px;
+}
+.personal{
+    width: 24.2%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-left: 165px;
+    margin-top: 88px;
+    border-radius: 1%;
+}
+.package-name{
+    font-size: 18px;
+    color: rgb(0,189,86);
+    padding-top: 20px;
+}
+.dog-img{
+    border-top-right-radius: 1%;
+    border-top-left-radius: 1%;
+}
+.price-row{
+    display: flex;
+    margin-top: 30px;
+}
+.dollar{
+    color: rgb(195,195,195);
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.price{
+    font-size: 50px;
+}
+.a-month{
+    font-size: 12px;
+    padding-top: 37px;
+    color:rgb(179,179,179) ;
+}
+.contain, .contain-gray, .contain-gray-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+}
+.contain-gray, .contain-gray-first{
+    background-color: rgb(242,242,242);
+}
+.contain-gray-first{
+    margin-top: 20px;
+}
+.check{
+    margin-right: 10px;
+}
+.start-button{
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+    background-color: rgb(0,189,86);
+    border-radius: 5%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.business, .ultimate{
+    width: 24.2%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 88px;
+    border-radius: 1%;
+    margin-left: 40px;
 }
