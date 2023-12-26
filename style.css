@@ -10,6 +10,7 @@
 }
 .first-line {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .header-blue {
@@ -62,13 +63,15 @@
 }
 
 .name {
-    font-size: 30px;
+    display: block;
+    white-space: nowrap;
+    font-size: 27px;
     margin-left: 10px;
 }
 
 .home {
     display: flex;
-    padding: 200px 98px;
+    padding: 0px 98px;
 }
 
 .home p {
@@ -82,8 +85,9 @@
 }
 
 .main-img {
+    width: 100%;
     background-image: url(https://preview.colorlib.com/theme/petsitting/images/bg_1.jpg.webp);
-    background-size: 100%;
+    background-size: cover;
     color: white;
     height: 500px;
     display: flex;
@@ -140,7 +144,7 @@
     height: 100%;
 }
 
-.icon {
+.icon1, .icon2, .icon3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,7 +157,7 @@
     z-index: 1;
 }
 
-.text-on-cards {
+.text-on-cards1, .text-on-cards2, .text-on-cards3 {
     width: 70%;
     height: 300px;
     font-size: 18px;
@@ -171,7 +175,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.text-on-cards p {
+.text-on-cards1 p, .text-on-cards2 p, .text-on-cards3 p {
     width: 80%;
 }
 
@@ -181,18 +185,18 @@
     margin-bottom: 20px;
 }
 
-.text-on-cards:hover {
+.text-on-cards1:hover, .text-on-cards2:hover, .text-on-cards3:hover {
     background-color: rgb(0, 189, 86);
     color: white;
 }
 
-.text-on-cards:hover {
+.text-on-cards1:hover, .text-on-cards2:hover, .text-on-cards3:hover {
     .card-name {
         color: white;
     }
 }
 
-.arrow {
+.arrow1, .arrow2, .arrow3 {
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -208,14 +212,13 @@
     box-shadow: 5px 5px 5px #838383;
 }
 
-.first-card:hover,
-.second-card:hover,
-.third-card:hover {
-    .icon {
+.first-card:hover, .second-card:hover, .third-card:hover {
+    .icon1, .icon2, .icon3 {
         background-color: white;
     }
-
-    .arrow {
+}
+.first-card:hover, .second-card:hover, .third-card:hover{
+    .arrow1, .arrow2, .arrow3 {
         background-color: white;
         color: rgb(0, 189, 86);
         margin-left: 10px;
@@ -797,4 +800,178 @@ input, textarea, select{
     background-color: transparent;
     border: 2px solid rgb(0, 189, 86);
     color: rgb(0, 189, 86);
+}
+.footer{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(26,26,26);
+    color: white;
+    padding-left: 170px;
+    padding-top: 100px;
+}
+.petsit-info{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.info-row{
+    display: flex;
+    margin-top: 20px;
+}
+.twitter-info, .fb-info, .insta-info{
+    background-color: rgb(49,49,49);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fb-info, .insta-info{
+    margin-left: 20px;
+}
+.info-desc{
+    color: rgb(195, 195, 195);
+    padding-top: 20px;
+}
+.latest-news{
+    width: 20%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.pic-desc{
+    display: flex;
+    margin-top: 20px;
+}
+.img-desc-info{
+    padding-left: 20px;
+}
+.time-info{
+    font-size: 11px;
+    color: rgb(195, 195, 195);
+    padding:15px 0 15px 110px;
+}
+.info-news-name{
+    font-size: 24px;
+}
+.green-line{
+    background-color:rgb(0, 189, 86) ;
+    width: 50px;
+    height: 5px;
+}
+.quick-links{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    color:rgb(195, 195, 195) ;
+    margin-left: 50px;
+}
+.sections p{
+    padding-top: 25px;
+}
+.have-questions{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+}
+.row-contact{
+    display: flex;
+    margin-top: 30px;
+}
+.row-contact-info{
+    padding-left: 30px;
+    color: rgb(195, 195, 195);
+}
+.img-desc-info:hover{
+    color: rgb(0, 189, 86);
+}
+.burger{
+    margin-left: 62%;
+    display: none;
+    color:rgb(195, 195, 195) ;
+}
+.burger-menu{
+    padding-top: 13px;
+}
+@media screen and (max-width:900px){
+    .first-line{
+        width: 100%;
+    }
+    .header-blue,
+    .header-green {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .home p{
+        display: none;
+    }
+    .burger{
+        display: flex;
+    }
+    .name{
+        text-align: center;
+        font-size: 24px;
+    }
+    .second-line img{
+        margin: 10px;
+    }
+    .main-img p{
+        font-size: 24px;
+        width: 260px;
+        margin-top: 100px;
+    }
+    .learn-more{
+        width: 100px;
+        height: 20px;
+        font-size: 16px;
+    }
+    .cards{
+        flex-direction: column;
+        height: 1050px;
+    }
+    .text-on-cards1, .text-on-cards2, .text-on-cards3{
+        width: 55%;
+    }
+    .text-on-cards1{
+        top: 0px;
+    }
+    .text-on-cards2{
+        top: -10px;
+    }
+    .text-on-cards3{
+        top: -20px;
+    }
+    .icon1, .icon2, .icon3{
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+    }
+    .icon1{
+        top: -70px;
+    }
+    .icon2{
+        top: -80px;
+    }
+    .icon3{
+        top: -95px;
+    }
+    .arrow1, .arrow2{
+        display: none;
+    }
+    .arrow3{
+        width: 70px;
+        height: 70px;
+        top: 240px;
+    }
 }
