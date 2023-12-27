@@ -312,7 +312,7 @@
 .product-name {
     font-size: 20px;
     margin-top: 10px;
-    color: rgb(48, 43, 42);
+    color: white;
 }
 
 .questions {
@@ -974,4 +974,186 @@ input, textarea, select{
         height: 70px;
         top: 240px;
     }
+    .choose-us{
+        flex-direction: column;
+        height: 1140px;
+    }
+    .pug-img{
+        width: 400px;
+        margin-left: 180px;
+    }
+    .row1, .row2{
+        flex-direction: column;
+        margin: 0;
+        margin-left: 20px;
+    }
+    .column{
+       margin: 0;
+    }
+    .column h1{
+        padding-left: 30px;
+    }
+    .green-img{
+        width: 80px;
+    }
+    .support, .veterinary{
+        margin: 0;
+    }
+    .support, .emergency, .veterinary{
+        margin-top: 40px;
+    }
+    .pet-number{
+        flex-direction: column;
+        height: 600px;
+    }
+    .questions-section{
+        flex-direction: column;
+        height: 1340px;
+    }
+    .pomeranian-first, .pomeranian-second, .pomeranian-third{
+        position: relative;
+        top: -1300px;
+        right: -95px;
+    }
+    .questions{
+        margin-top: 700px;
+    }
+    .feedback{
+        height: 600px;
+    }
+    .second-quote, .third-quote, .quote-mark-three, .quote-mark-two{
+        display: none;
+    }
+    .first-quote{
+        width: 400px;
+    }
+    .feedback-name{
+        margin-left: 170px;
+    }
+    .quote-mark-one{
+        left: 220px;
+    }
+    .packages{
+        height: 2550px;
+    }
+    .row-packages{
+        flex-direction: column;
+    }
+    .personal, .business, .ultimate{
+        width: 355px;
+        margin-left: 183px;
+        margin-top: 0px;
+    }
+    .business, .ultimate{
+        margin-top: 40px;
+    }
+    .main-package{
+        padding: 50px 0 50px 190px;
+    }
+    .gallery{
+        height: 2090px;
+    }
+    .pets-img{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0 0 0 150px;
+    }
+    .gallery-section{
+        padding: 50px 0 50px 250px;
+    }
+    .pet2, .pet3, .pet5, .pet4, .pet6{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .pet1, .pet2, .pet3, .pet5, .pet4, .pet6{
+        width: 450px;
+        height: 300px;
+    }
+    .persian{
+        top: 260px;
+    }
+    .pomeranian{
+        left: 10px;
+        top: 585px;
+    }
+    .sphynx{
+        left: 10px;
+        top: 905px;
+    }
+    .british{
+        top: 1230px;
+    }
+    .beagle{
+        left: 10px;
+        top: 1550px;
+    }
+    .pug{
+        left: 10px;
+        top: 1870px;
+    }
+    .news{
+        height: 1480px;
+    }
+    .news-section{
+        margin: 0;
+        padding: 40px 0 40px 160px;
+    }
+    .row-news{
+        flex-direction: column;
+    }
+    .first-news, .second-news, .third-news{
+        width:355px ;
+        margin: 0 0 0 190px;
+    }
+    .second-news, .third-news{
+        margin-top: 25px;
+    }
+    .consultation-img{
+        display: none;
+    }
+    .consultation-section{
+        width: 100%;
+        height: 790px;
+    }
+    .name-number, .date-time{
+        display: flex;
+        flex-direction: column;
+        width: 1510px;
+    }
+    .number-input, .time-input{
+        margin: 0;
+        margin-top: 20px ;
+    }
+    .footer{
+        flex-direction: column;
+        height: 1350px;
+        padding: 200px 0 0 0;
+    }
+    .petsit-info, .latest-news, .quick-links, .have-questions{
+        width: 100%;
+        margin: 0 0 0 20px;
+    }
+    .petsit-info{
+        width: 80%;
+    }
+    .latest-news, .quick-links, .have-questions{
+        margin-top: 40px;
+    }
+    .time-info{
+        padding: 0 0 0 118px;
+    }
+    .sections{
+        margin-left: 15px;
+    }
+    .svg-map{
+        width: 30px;
+    }
+    .row-contact-info{
+        padding-top: 20px;
+    }
+    .phone-contact, .telegram-contact{
+        margin-top: 20px;
+    }
 }
+
+
