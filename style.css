@@ -58,24 +58,24 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.second-line img {
-    margin-left: 150px;
+.name-img {
+    margin-left: 1%;
 }
 
 .name {
     display: block;
     white-space: nowrap;
     font-size: 27px;
-    margin-left: 10px;
+    margin-left: 2%;
 }
 
 .home {
     display: flex;
-    padding: 0px 98px;
+    padding: 0 5%;
 }
 
 .home p {
-    margin-left: 40px;
+    margin-left: 4%;
     padding: 40px 0;
 }
 
@@ -252,7 +252,7 @@
 
 .green-img {
     background-color: rgb(0, 189, 86);
-    width: 20%;
+    width: 80px;
     height: 80px;
     border-radius: 100%;
     display: flex;
@@ -388,7 +388,10 @@
 .pomeranian-third {
     margin-left: 38px;
 }
-
+.name-input, .time-input, .date-input, .number-input{
+    width: 33%; 
+    height: 50px;
+}
 .pomeranian-first,
 .pomeranian-second,
 .pomeranian-third {
@@ -447,7 +450,7 @@
 .first-quote,
 .second-quote,
 .third-quote {
-    width: 25%;
+    width: 355px;
     height: 250px;
     border-radius: 5%;
     background-color: white;
@@ -496,7 +499,7 @@
 }
 
 .personal {
-    width: 24.2%;
+    width: 355px;
     height: 750px;
     display: flex;
     flex-direction: column;
@@ -577,7 +580,7 @@
 
 .business,
 .ultimate {
-    width: 24.2%;
+    width: 355px;
     height: 750px;
     display: flex;
     flex-direction: column;
@@ -600,7 +603,7 @@
     margin-left: 230px;
     display: flex;
     flex-wrap: wrap;
-    width: 85%;
+    width: 70%;
     margin-top: 90px;
     position: relative;
 }
@@ -626,8 +629,23 @@
 .pet6 {
     border-radius: 2%;
     z-index: 0;
+    position: relative;
 }
-
+.pet3{
+    right: -670px;
+    top: -200px;
+}
+.pet4{
+    right: 350px;
+}
+.pet5{
+    right: -320px;
+    top: -230px;
+}
+.pet6{
+    top: -230px;
+    right: -320px;
+}
 .gallery-section {
     padding-top: 110px;
     padding-left: 605px;
@@ -643,7 +661,7 @@
     font-size: 24px;
     color: white;
     position: absolute;
-    display: none;
+    display:none ;
     z-index: 1;
 }
 
@@ -659,7 +677,7 @@
 
 .sphynx {
     top: 167px;
-    right: 245px;
+    right: 33px;
 }
 
 .british {
@@ -674,7 +692,7 @@
 
 .pug {
     top: 397px;
-    right: 350px;
+    right: 145px;
 }
 
 .pet1:hover+.persian {
@@ -716,7 +734,7 @@
     display: flex;
 }
 .first-news{
-    width: 24.2%;
+    width: 355px;
     height: 420px;
     background-color: white;
     margin-left: 165px;
@@ -745,7 +763,7 @@
     border-top-left-radius: 1%;
 }
 .second-news, .third-news{
-    width: 24.2%;
+    width: 355px;
     height: 420px;
     background-color: white;
     margin-left: 40px;
@@ -904,6 +922,142 @@ input, textarea, select{
 .burger-menu{
     padding-top: 13px;
 }
+
+@media  screen and (max-width:1300px){
+    .pomeranian-column{
+        margin-right: 40px;
+    }
+    .row-packages{
+        margin-left: -85px;
+    }
+    .pets-img{
+        margin-left: 145px;
+    }
+    .sphynx, .pug{
+        left: 715px;
+    }
+    .row-news{
+        margin-left: -85px;
+    }
+    .pug-img{
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .row-packages, .row-news{
+        margin-left: -140px;
+    }
+    .pets-img{
+        margin-left: 110px;
+    }
+}
+@media screen and (max-width:1100px) {
+    .pomeranian-first{
+        width: 500px;
+        height: 300px;
+    }
+    .pomeranian-second, .pomeranian-third{
+        width: 230px;
+        height: 190px;
+    }
+    .questions{
+        margin-left: -140px;
+    }
+    .first-quote, .second-quote, .third-quote{
+        width: 300px;
+        height: 300px;
+    }
+    .quote-mark-three{
+        left: 900px;
+    }
+    .row-packages{
+        margin-left: -55px;
+    }
+    .dog-img{
+        width: 250px;
+    }
+    .personal, .business, .ultimate{
+        width: 250px;
+    }
+    .main-package, .feedback-name, .news-section, .gallery-section{
+        padding-left: 350px;
+        margin: 0;
+    }
+    .icon1, .icon2, .icon3{
+        top: -130px;
+    }
+    .arrow1, .arrow2, .arrow3{
+        top: 210px;
+    }
+    .pug-img{
+        width: 330px;
+        height: 460px;
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+    .news-img, .first-news, .second-news, .third-news{
+        width: 250px;
+    }
+    .the-news{
+        width: 200px;
+    }
+    .row-news{
+        margin-left: -45px;
+    }
+    .pet1, .pet2, .pet3, .pet4, .pet5, .pet6{
+        width: 250px;
+        height: 180px;
+    }
+    .pet2{     
+        left: 35px;
+    }
+    .pet3{
+        left: 590px;
+        top: -180px;
+    }
+    .pet4{
+        left: -278px;
+    }
+    .pet5{
+        top: -210px;
+        left: 285px;
+    }
+    .pet6{
+        left: 310px;
+        top: -210px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .home p{
+        font-size:14px ;
+    }
+    .pets-img{
+        margin-left: 40px;
+    }
+    .header-green{
+        padding-left: 220px;
+    }
+}
+@media screen and (max-width:950px) {
+    .row-news, .row-packages{
+        margin-left: -115px;
+    }
+    .first-quote, .second-quote, .third-quote{
+        width: 250px;
+    }
+    .quote-mark-two{
+        left: 400px;
+    }
+    .quote-mark-three{
+        left: 700px;
+    }
+    .column{
+        margin-left: -55px;
+    }
+    .home p{
+        font-size: 13px;
+    }
+}
 @media screen and (max-width:900px){
     .first-line{
         width: 100%;
@@ -918,6 +1072,7 @@ input, textarea, select{
     }
     .burger{
         display: flex;
+        margin-left: 50%;
     }
     .name{
         text-align: center;
@@ -979,8 +1134,8 @@ input, textarea, select{
         height: 1140px;
     }
     .pug-img{
-        width: 400px;
-        margin-left: 180px;
+        width: 50%;
+        margin-left: 20%;
     }
     .row1, .row2{
         flex-direction: column;
@@ -1028,16 +1183,20 @@ input, textarea, select{
         width: 400px;
     }
     .feedback-name{
-        margin-left: 170px;
+        margin-left: -115px;
     }
     .quote-mark-one{
-        left: 220px;
+        left: 280px;
+    }
+    .dog-img{
+        width: 355px;
     }
     .packages{
         height: 2550px;
     }
     .row-packages{
         flex-direction: column;
+        margin-left: 80px;
     }
     .personal, .business, .ultimate{
         width: 355px;
@@ -1048,7 +1207,7 @@ input, textarea, select{
         margin-top: 40px;
     }
     .main-package{
-        padding: 50px 0 50px 190px;
+        padding: 50px 0 50px 270px;
     }
     .gallery{
         height: 2090px;
@@ -1056,18 +1215,25 @@ input, textarea, select{
     .pets-img{
         flex-direction: column;
         flex-wrap: nowrap;
-        margin: 0 0 0 150px;
+        margin: 0 0 0 230px;
     }
     .gallery-section{
-        padding: 50px 0 50px 250px;
+        padding: 50px 0 50px 330px;
     }
     .pet2, .pet3, .pet5, .pet4, .pet6{
         margin: 0;
         margin-top: 20px;
     }
+    .pet2{
+        left: 0;
+    }
     .pet1, .pet2, .pet3, .pet5, .pet4, .pet6{
         width: 450px;
         height: 300px;
+    }
+    .pet3, .pet4, .pet5, .pet6{
+        left: 0px;
+        top: 0;
     }
     .persian{
         top: 260px;
@@ -1094,12 +1260,16 @@ input, textarea, select{
     .news{
         height: 1480px;
     }
+    .news-img{
+        width: 355px;
+    }
     .news-section{
         margin: 0;
-        padding: 40px 0 40px 160px;
+        padding: 40px 0 40px 240px;
     }
     .row-news{
         flex-direction: column;
+        margin-left: 80px;
     }
     .first-news, .second-news, .third-news{
         width:355px ;
@@ -1118,7 +1288,9 @@ input, textarea, select{
     .name-number, .date-time{
         display: flex;
         flex-direction: column;
-        width: 1510px;
+    }
+    .name-input, .number-input, .time-input, .date-input{
+        width: 72%;
     }
     .number-input, .time-input{
         margin: 0;
@@ -1130,12 +1302,10 @@ input, textarea, select{
         padding: 200px 0 0 0;
     }
     .petsit-info, .latest-news, .quick-links, .have-questions{
-        width: 100%;
-        margin: 0 0 0 20px;
-    }
-    .petsit-info{
         width: 80%;
+        margin: 0 0 0 20px;      
     }
+
     .latest-news, .quick-links, .have-questions{
         margin-top: 40px;
     }
@@ -1155,5 +1325,115 @@ input, textarea, select{
         margin-top: 20px;
     }
 }
-
-
+@media screen and (max-width:750px) {
+    .pug-img{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:650px) {
+    .row-packages, .row-news{
+        margin-left: -40px;
+    }
+    .pets-img{
+        margin-left: 100px;
+    }
+    .gallery-section, .news-section, .main-package, .feedback-name{
+        margin-left: -120px;
+    }
+}
+@media screen and (max-width:550px){
+    .burger{
+        margin-left: 35%;
+    }
+    .pug-img{
+        margin-left: 5%;
+        width: 75%;
+    }
+    .choose-us{
+        height: 1350px;
+    }
+    .pomeranian-first{
+        width:400px ;
+        height: 250px;
+    }
+    .pomeranian-second, .pomeranian-third{
+        width: 210px;
+        height: 170px;
+    }
+    .pomeranian-first, .pomeranian-second, .pomeranian-third{
+        top: -55px;
+        right: -55px;
+    }
+    .questions-section{
+        position: relative;
+        height: 1200px;
+    }
+    .questions{
+        margin-top: 440px;
+        width: 100%;
+        position: absolute;
+    }
+    .question-desc{
+        width: 100%;
+    }
+    .feedback-name{
+        margin-left: -155px;
+        width: 94%;
+    }
+    .main-package{
+        width: 100%;
+        margin-left: -33px ;
+    }
+    .row-packages{
+        margin-left: 30px;
+    }
+    .personal, .business, .ultimate{
+        margin-left: 77px;
+    }
+    .gallery{
+        height: 1400px;
+        width: 80%;
+    }
+    .gallery-section{
+        margin-left: -165px;
+    }
+    .latest-news, .quick-links, .have-questions{
+        width: 80%;
+        margin: 40px 0 0 20px;      
+    
+    }
+    .pets-img{
+        width: 80%;
+        margin-left: 160px;
+    }
+    .pet1, .pet2, .pet3, .pet5, .pet4, .pet6{
+        width: 250px;
+        height: 180px;
+    }
+    .news-section{
+        margin-left: -120px;
+    }
+    .row-news{
+        margin-left: -115px;
+    }
+    .icon1, .icon2, .icon3 {
+        width: 100px;
+        height: 100px;
+    }
+    .text-on-cards1, .text-on-cards2, .text-on-cards3{
+        width: 70%;
+    }
+}
+@media screen and (max-width:500px) {
+    .pomeranian-row{
+        margin-left: -37px;
+    }
+    .feedback-name{
+        margin-top: -70px;
+        margin-left: -195px;
+        text-align: center;
+    }
+    .feedback{
+        height: 700px;
+    }
+}
