@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .body{
     width: 100%;
 }
@@ -427,13 +428,15 @@
     left: 120px;
     top: 60px;
 }
-
+.quote-mark-one{
+    left: 130px;
+}
 .quote-mark-two {
-    left: 585px;
+    left: 600px;
 }
 
 .quote-mark-three {
-    left: 1045px;
+    left: 1065px;
 }
 
 .quote-row {
@@ -505,7 +508,7 @@
     flex-direction: column;
     align-items: center;
     background-color: white;
-    margin-left: 165px;
+    margin-left: 160px;
     margin-top: 88px;
     border-radius: 1%;
 }
@@ -601,8 +604,6 @@
 
 .pets-img {
     margin-left: 230px;
-    display: flex;
-    flex-wrap: wrap;
     width: 70%;
     margin-top: 90px;
     position: relative;
@@ -633,7 +634,7 @@
 }
 .pet3{
     right: -670px;
-    top: -200px;
+    top: -238px;
 }
 .pet4{
     right: 350px;
@@ -922,6 +923,27 @@ input, textarea, select{
 .burger-menu{
     padding-top: 13px;
 }
+@media screen and (max-width:1700px) and (min-width:1600px) {
+    .pet5, .pet3, .pet4, .pet6{
+        right:auto;
+        top: auto;
+    }
+    .quote-mark-one{
+        left: 190px;
+    }
+    .quote-mark-two{
+        left: 700px;
+    }
+    .quote-mark-three{
+        left: 1215px;
+    }
+    .row-packages, .row-news{
+        margin-left: 110px;
+    }
+    .pets-img{
+        margin-left:335px;
+    }
+}
 
 @media  screen and (max-width:1300px){
     .pomeranian-column{
@@ -942,6 +964,15 @@ input, textarea, select{
     .pug-img{
         margin-left: -20px;
     }
+    .quote-mark-one{
+        left: 70px;
+    }
+    .quote-mark-two{
+        left: 475px;
+    }
+    .quote-mark-three{
+        left: 880px;
+    }
 }
 @media screen and (max-width:1200px) {
     .row-packages, .row-news{
@@ -949,6 +980,33 @@ input, textarea, select{
     }
     .pets-img{
         margin-left: 110px;
+    }
+    .pet3{
+        top: -238px;
+        right: -685px;
+    }
+    .pet4{
+        right: 355px;
+    }
+    .pet5{
+        top: -237px;
+        right: -330px;
+    }
+    .pet6{
+        top: -237px;
+        right: -328px;
+    }
+    .quote-mark-one{
+        left: 60px;
+    }
+    .quote-mark-two{
+        left: 445px;
+    }
+    .quote-mark-three{
+        left: 830px;
+    }
+    .questions-column, .question-desc, .question-name{
+        margin-left: -115px;
     }
 }
 @media screen and (max-width:1100px) {
@@ -961,14 +1019,20 @@ input, textarea, select{
         height: 190px;
     }
     .questions{
-        margin-left: -140px;
+        margin-left: -30px;
     }
     .first-quote, .second-quote, .third-quote{
         width: 300px;
         height: 300px;
     }
+    .quote-mark-one{
+        left: 75px;
+    }
+    .quote-mark-two{
+        left: 425px;
+    }
     .quote-mark-three{
-        left: 900px;
+        left: 770px;
     }
     .row-packages{
         margin-left: -55px;
@@ -1013,7 +1077,7 @@ input, textarea, select{
     }
     .pet3{
         left: 590px;
-        top: -180px;
+        top: -218px;
     }
     .pet4{
         left: -278px;
@@ -1029,7 +1093,7 @@ input, textarea, select{
 }
 @media screen and (max-width:1000px) {
     .home p{
-        font-size:14px ;
+        font-size:13px ;
     }
     .pets-img{
         margin-left: 40px;
@@ -1214,7 +1278,6 @@ input, textarea, select{
     }
     .pets-img{
         flex-direction: column;
-        flex-wrap: nowrap;
         margin: 0 0 0 230px;
     }
     .gallery-section{
@@ -1435,5 +1498,43 @@ input, textarea, select{
     }
     .feedback{
         height: 700px;
+    }
+    .row-packages{
+        margin-left: -10px;
+    }
+    .pets-img{
+        margin-left: 110px;
+    }
+}
+@media screen and (max-width:450px){
+    .burger{
+        margin-left: 25%;
+    }
+    .pug-img{
+        margin-top: 10px;
+        width: 380px;
+    }
+    .choose-us{
+        height: 1400px;
+    }
+    .pomeranian-column{
+        margin-left: 5px;
+    }
+    .pomeranian-first{
+        width: 300px;
+        height: 200px;
+    }
+    .pomeranian-second, .pomeranian-third{
+        width: 170px;
+        height: 150px;
+    }
+    .main-package, .news-section{
+        margin-left: -140px;
+    }
+    .row-packages{
+        margin-left: -40px;
+    }
+    .row-news{
+        margin-left: -150px;
     }
 }
