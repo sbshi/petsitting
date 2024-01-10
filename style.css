@@ -923,10 +923,44 @@ input, textarea, select{
 .burger-menu{
     padding-top: 13px;
 }
+@media screen and (max-width:1920px) and (min-width: 1700px){
+    .quote-mark-one{
+        left: 230px;
+    }
+    .quote-mark-two{
+        left: 800px;
+    }
+    .quote-mark-three{
+        left: 1375px;
+    }
+    .home{
+        font-size:25px;
+    }
+    .row-packages, .row-news{
+        margin-left: 200px;
+    }
+    .main-package, .gallery-section{
+        padding-left: 755px;
+    }
+    .news-section{
+        padding-left: 225px;
+    }
+    .pet3{
+        top: 0px;
+        right: 10px;
+    }
+    .pet4, .pet5, .pet6{
+        top: 0px;
+        right: 0px;
+    }
+    .pets-img{
+        margin-left: 450px;
+    }
+}
 @media screen and (max-width:1700px) and (min-width:1600px) {
-    .pet5, .pet3, .pet4, .pet6{
-        right:auto;
-        top: auto;
+    .pet3, .pet4, .pet5, .pet6{
+        right: 0px;
+        top: 0px;
     }
     .quote-mark-one{
         left: 190px;
@@ -942,6 +976,9 @@ input, textarea, select{
     }
     .pets-img{
         margin-left:335px;
+    }
+    .home{
+        margin-left: 500px;
     }
 }
 
@@ -965,13 +1002,16 @@ input, textarea, select{
         margin-left: -20px;
     }
     .quote-mark-one{
-        left: 70px;
+        left: 80px;
     }
     .quote-mark-two{
-        left: 475px;
+        left: 485px;
     }
     .quote-mark-three{
-        left: 880px;
+        left: 900px;
+    }
+    .home{
+        margin-left: 150px;
     }
 }
 @media screen and (max-width:1200px) {
@@ -1008,11 +1048,17 @@ input, textarea, select{
     .questions-column, .question-desc, .question-name{
         margin-left: -115px;
     }
+    .home{
+        margin-left: 100px;
+    }
 }
 @media screen and (max-width:1100px) {
     .pomeranian-first{
         width: 500px;
         height: 300px;
+    }
+    .home{
+        margin-left: 40px;
     }
     .pomeranian-second, .pomeranian-third{
         width: 230px;
@@ -1095,11 +1141,23 @@ input, textarea, select{
     .home p{
         font-size:13px ;
     }
+    .quote-mark-one{
+        left: 45px;
+    }
+    .quote-mark-two{
+        left: 370px;
+    }
+    .quote-mark-three{
+        left: 695px;
+    }
     .pets-img{
         margin-left: 40px;
     }
     .header-green{
         padding-left: 220px;
+    }
+    .row-packages, .row-news{
+        margin-left: -70px;
     }
 }
 @media screen and (max-width:950px) {
@@ -1111,6 +1169,9 @@ input, textarea, select{
     }
     .quote-mark-two{
         left: 400px;
+    }
+    .home{
+        margin-left: 10px;
     }
     .quote-mark-three{
         left: 700px;
@@ -1126,6 +1187,7 @@ input, textarea, select{
     .first-line{
         width: 100%;
     }
+    
     .header-blue,
     .header-green {
         width: 100%;
